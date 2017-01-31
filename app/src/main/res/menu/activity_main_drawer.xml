@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_createT"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Create Task" />
+        <item
+            android:id="@+id/nav_settio"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Map" />
+        <!--new tasks-->
+        <item
+            android:id="@+id/nav_newTask"
+            android:icon="@drawable/ic_flag"
+            android:title="List of landmarks" />
+        <item
+            android:id="@+id/nav_rank"
+            android:icon="@drawable/ic_link"
+            android:title="Visit Website" />
+        <item
+            android:id="@+id/nav_walked"
+            android:icon="@drawable/ic_walk2"
+            android:title="Total Walked Area" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_con"
+                android:title="Connectivity" />
+            <item
+                android:id="@+id/nav_out"
+                android:icon="@drawable/ic_movie"
+                android:title="Video" />
+        </menu>
+    </item>
+
+</menu>
